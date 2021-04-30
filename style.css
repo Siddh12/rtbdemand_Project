@@ -1,0 +1,70 @@
+body{
+    background-color: gray;
+}
+
+#header{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+}
+#FirstPeragraph{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: -28%;
+    display: flex;
+}
+#section1,#section2,#section3,#section4{
+    width: 240px;
+    height: 180px;
+    background-color: powderblue;
+    margin: 10px;
+}
+#SecondPeragraph{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+}
+#sectionsecond1,#sectionsecond2,#sectionsecond3,#sectionsecond4{
+    width: 240px;
+    height: 180px;
+    background-color: powderblue;
+    margin: 10px;
+    font-size: 700%;
+    text-align: center;
+    color: white;
+   
+}
+#add1{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    background-color:lightgray;
+}
+#crossbutton,#crossbutton2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-left: 94%;
+    margin-top: -3.5%;
+    cursor: pointer;
+}
+#crossbutton2{
+    margin-left: 86%;
+    margin-top: -6%;
+}
+
+#add2LeftSide{
+    width: 180px;
+    height: 500px;
+    background-color: lightgray;
+    margin-left: 1.3%;
+}
