@@ -9,33 +9,21 @@ body{
     margin: auto;
     margin-top: 1%;
 }
-#FirstPeragraph{
+.paragraph{
     width: 1000px;
-    height: 200px;
-    background-color: white;
-    margin: auto;
-    margin-top: -28%;
-    display: flex;
-}
-#section1,#section2,#section3,#section4{
-    width: 240px;
-    height: 180px;
-    background-color: powderblue;
-    margin: 10px;
-}
-#SecondPeragraph{
-    width: 1000px;
-    height: 200px;
     background-color: white;
     margin: auto;
     margin-top: 1%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px 2%;
+    padding: 10px;
+    justify-content: space-between;
 }
-#sectionsecond1,#sectionsecond2,#sectionsecond3,#sectionsecond4{
-    width: 240px;
+.section{
+    flex: 1 1 23%;
     height: 180px;
     background-color: powderblue;
-    margin: 10px;
     font-size: 700%;
     text-align: center;
     color: white;
@@ -57,14 +45,57 @@ body{
     margin-top: -3.5%;
     cursor: pointer;
 }
+.cross{
+    position: relative;
+    bottom: 10%;
+    right: 10%;
+}
 #crossbutton2{
     margin-left: 86%;
     margin-top: -6%;
 }
 
-#add2LeftSide{
+.add2LeftSide{
     width: 180px;
     height: 500px;
     background-color: lightgray;
-    margin-left: 1.3%;
+    left: 1.3%;
+    top: 100px;
+    position: absolute;
+}
+.carousel {
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.carousel carousel>* {
+    flex: 0 0 auto;
+}
+
+.carousel figure {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.carousel figure .block {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel figure .block:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#tem,#loc{
+  margin-top: 10%;
+  font-size: 200%;  
 }
