@@ -1,71 +1,6 @@
 body{
     background-color: white;
 }
-
-#header{
-    width: 500px;
-    background-color: white;
-    margin: 1% auto;
-    display: flex;
-    gap: 5px;
-    justify-content: space-between;
-}
-#header div{
-    padding: 0.8rem 0;
-    flex-grow: 1;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    background-color: #E1835E;
-    border: #E1835E 2px solid;
-    cursor: pointer;
-}
-#header div:hover{
-    color: black;
-    background: transparent;
-}
-.paragraph{
-    width: 1000px;
-    border: gray 2px solid;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 1%;
-    padding: 10px;
-    justify-content: space-between;
-}
-.paragraph.banner{
-    align-items: center !important;
-}
-.section{
-    flex: 1 1 23%;
-    height: 180px;
-    border: gray 1px solid;
-    background-color: white;
-    text-align: center;
-    font-size: 200%;
-    color: #5E1A54;
-    cursor: pointer;
-    border-radius: 10px;
-   
-}
-.section1{
-    width: 200px;
-    height: 180px;
-    background-color: white;
-    text-align: center;
-    color: white;
-}
-.section2{
-    flex: 1 1 23%;
-    width: 700px;
-    background-color: white;
-    text-align: left;
-    color: black; 
-    gap: 0px 0.2%; 
-}
 #add1{
     width: 400px;
     height: 200px;
@@ -94,7 +29,7 @@ body{
     width: 180px;
     height: 500px;
     left: 1.3%;
-    top: 100px;
+    top: 200px;
     position: absolute;
 }
 .carousel {
@@ -102,6 +37,7 @@ body{
     position: fixed;
     bottom: -10px;
     left: 20px;
+    color: white;
 }
 
 .carousel carousel>* {
@@ -130,8 +66,9 @@ body{
     top: 0;
 }
 #tem,#loc{
-  margin-top: 10%;
-  font-size: 200%;  
+  margin-top: 15%;
+  font-size: 200%; 
+  color: white; 
 }
 #crossbutton3{
     right: 0;
@@ -153,9 +90,8 @@ body{
     font-size: larger;
 }
 .circleAd{
-
-    margin-top: -12px;
-    margin-left: -12px;
+    margin-top: -2px;
+    margin-left: -2px;
 }
 .image1{
     position: absolute;

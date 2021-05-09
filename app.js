@@ -61,7 +61,7 @@ setInterval(() => {
 
 let loc = document.getElementById("loc");
 let tem = document.getElementById("tem");
-let cityName = ["Delhi", "Texas", "London", "Tokyo", "Moscow", "Paris"];
+let cityName = ["Delhi", "Texas", "London", "Tokyo", "Goa", "Paris"];
 let index = 0;
 
 setInterval(() => {
@@ -94,4 +94,4 @@ Crossbutton3.addEventListener("click",()=>{
     blocka.remove("id"); 
     blockb.remove("id"); 
     blockc.remove("id"); 
-})
+});
